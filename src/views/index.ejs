@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>Guilds: <%= client.guilds.cache.size %></p>
+    <p>Channels: <%= client.channels.cache.size %></p>
+    <p>Users: <%= client.users.cache.size %></p>
+  </body>
+</html>
